@@ -8,9 +8,9 @@ INSERT INTO pet VALUES (1, "Gigantor", "Robot", 1, 1);
 
 
 -- create ex3.db from ex2.sql file
-	sqlite3 ex3.db < ex2.sql
+	-- sqlite3 ex3.db < ex2.sql
 -- add records to database
-	sqlite3 -echo ex3.db < ex3.sql
+	-- sqlite3 -echo ex3.db < ex3.sql
 
 INSERT INTO person(id, first_name, last_name, age)
 	VALUES (1, "Name1", "Last1", 25);
